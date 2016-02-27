@@ -641,7 +641,6 @@ void   on_cursor_changed(GtkTreeView *treeview,
 		update_label();
 	}
 
-/* 另一个回调函数 */
 void destroy( GtkWidget *widget,
               gpointer   data )
 {
@@ -754,7 +753,7 @@ int main(int argc,char* argv[])
 {
 	printf("%s\n",preview(argv[1]));
 	printf("meger test");
-	printf("meger 杨琳");
+	printf("meger ????");
 	return 0;
 }
 
